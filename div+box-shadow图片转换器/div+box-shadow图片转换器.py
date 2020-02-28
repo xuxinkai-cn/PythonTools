@@ -28,10 +28,10 @@ def get_html(new_pro):
         <style>
             .container{
                 position: relative;
-                width: 8px;
-                height: 8px;
+                width: 1px;
+                height: 1px;
                 border-radius: 50%;
-                background-color:black;
+                background-color:white;
                 box-shadow:'''
     html2 = '''
     }
@@ -46,7 +46,8 @@ def get_html(new_pro):
     return html1+new_pro+html2
 
 #修改图片地址
-image_file = Image.open(open('a.jpg','rb'))
+fp = open('./a.jpg','rb')
+image_file = Image.open(fp)
 #调整图片大小
 image_file=image_file.resize((int(image_file.size[0]*0.5), int(image_file.size[1]*0.5)))
 tmp = open('a.html','w',encoding='utf-8')
