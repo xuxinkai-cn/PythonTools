@@ -45,7 +45,7 @@ def get_html(new_pro):
     '''
     return html1+new_pro+html2
 
-
+#修改图片地址
 image_file = Image.open(open('a.jpg','rb'))
 #调整图片大小
 image_file=image_file.resize((int(image_file.size[0]*0.5), int(image_file.size[1]*0.5)))
