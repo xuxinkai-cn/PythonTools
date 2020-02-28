@@ -103,8 +103,8 @@ input.addEventListener("change", (event) => {
         n_img.src = e.target.result
         n_img.onload = (e) => {
             n_img.id = 'img'
-            n_img.width = 200
-            // n_img.height
+            n_img.width = n_img.width
+            n_img.height = n_img.height
             document.body.replaceChild(n_img, img)
             getImg()
         }
@@ -126,6 +126,8 @@ function getImg() {
     a.getColors().then((arr) => {
         pro =  arr.join(",")
         console.log(pro)
-        document.getElementsByClassName('container')[0].style.cssText= `box-shadow: ${pro}`
+        console.log("等待浏览器渲染")
+        document.getElementsByClassName('container')[0].style.cssText= `box-shadow: ${pro};`
+        document.getElementsByClassName('imgs')[0].style.cssText= 'width: 50px;'
     })
 }
