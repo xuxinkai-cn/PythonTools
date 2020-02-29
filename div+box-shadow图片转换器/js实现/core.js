@@ -1,4 +1,4 @@
-// 封装函数库 获取图片安阳市呢
+// 封装函数库
 function getImgColor(img) {
 
     /**
