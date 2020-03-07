@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#author : PM 小凯哥<1695025997@qq.com>
+#author : PM 小凯哥<my@xuxinkai.cn>
 from PIL import Image
 
 def transform(image_file):

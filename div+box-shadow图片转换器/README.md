@@ -32,14 +32,4 @@ tmp.write(get_html(transform(image_file)))
 tmp.close()
 ```
 
-效果预览：
-
-[点击查看效果](http://conv2019.aiquit.cn/a.html)
-
-[线上体验地址](http://conv2019.aiquit.cn/uploads/index/index.html)
-
-** 浏览器计算需要时间，耐心等待即可 **
-
-![哆啦A梦](http://conv2019.aiquit.cn/uploads/20200228135025.png)
-
-[我的博客](https://aiquit.cn/blog)
+[我的博客](https://xuxinkai.cn)

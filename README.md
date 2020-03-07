@@ -35,12 +35,10 @@ tmp.close()
 
 效果预览：
 
-[点击查看效果](https://aiquit.cn/wp-content/uploads/public/demo001/a.html)
-
-[线上体验地址](https://aiquit.cn/wp-content/uploads/public/demo001/)
+[线上体验地址](https://xuxinkai.cn/wp-content/uploads/public/demo001/)
 
 ** 浏览器计算需要时间，耐心等待即可 **
 
-![哆啦A梦](https://aiquit.cn/wp-content/uploads/2020/02/QQ截图20200228135025.png)
+![哆啦A梦](https://xuxinkai.cn/wp-content/uploads/2020/02/QQ截图20200228135025.png)
 
-[我的博客](https://aiquit.cn/blog)
+[我的博客](https://xuxinkai.cn)
